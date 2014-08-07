@@ -1,0 +1,9 @@
+﻿@model ArtGallery.Data.Models.Art
+
+<h2>
+    @Model.Title
+    <a href="/Home/EditArt/@Model.Id" class="btn btn-info">Edit</a>
+    <a href="/Home/DeleteArt/@Model.Id" class="btn btn-danger">Delete</a>
+</h2>
+<div class="well-lg"><img class="img-rounded" src="@Model.Link" /></div>
+<div class="well-sm"><a href="/Home/ArtistDetails/@Model.ArtistId" class="btn btn-primary">Back To Artist</a></div>

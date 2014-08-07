@@ -1,0 +1,7 @@
+﻿@model ArtGallery.Data.Models.Artist
+
+<div class="well-lg"><form action="/Home/EditArtist/@Model.Id" method="post">
+    <input type="text" name="name" value="@Model.Name" />
+    <input type="text" name="desc" value="@Model.Desc" />
+    <input type="submit" class="btn btn-success" value="Save" />
+</form></div>

@@ -1,0 +1,7 @@
+﻿@model List<ArtGallery.Data.Models.Artist>
+<div class="well-sm"><a href="/Home/AddArtist" class="btn btn-success">Add Artist</a></div>
+
+@foreach (var Artist in Model)
+{
+    <div class="well-sm"><a href="/Home/ArtistDetails/@Artist.Id" class="btn btn-primary">@Artist.Name</a></div>
+}

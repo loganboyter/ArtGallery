@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Web", "ArtGallery.Web\ArtGallery.Web.csproj", "{2AAEB500-B049-40C4-BF40-F0FA1B38DE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Data", "ArtGallery.Data\ArtGallery.Data.csproj", "{5659ED59-C578-4D99-98FC-8032B3F97581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtGallery.Data.Models", "ArtGallery.Data.Models\ArtGallery.Data.Models.csproj", "{5794605F-10A3-4FAB-94FF-D450A122A20A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AAEB500-B049-40C4-BF40-F0FA1B38DE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAEB500-B049-40C4-BF40-F0FA1B38DE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAEB500-B049-40C4-BF40-F0FA1B38DE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAEB500-B049-40C4-BF40-F0FA1B38DE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5659ED59-C578-4D99-98FC-8032B3F97581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5659ED59-C578-4D99-98FC-8032B3F97581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5659ED59-C578-4D99-98FC-8032B3F97581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5659ED59-C578-4D99-98FC-8032B3F97581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5794605F-10A3-4FAB-94FF-D450A122A20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5794605F-10A3-4FAB-94FF-D450A122A20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5794605F-10A3-4FAB-94FF-D450A122A20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5794605F-10A3-4FAB-94FF-D450A122A20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
